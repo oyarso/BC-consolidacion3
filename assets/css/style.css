@@ -83,7 +83,7 @@ body {
 
 .izq {
   text-align: left;
-  width: 60%;
+  width: 33%;
   margin: auto;
 }
 
@@ -99,6 +99,7 @@ body {
   border-radius: 5px;
   text-align: start;
   height: 3rem;
+  padding: 5px;
 }
 
 .colorout {
@@ -107,6 +108,7 @@ body {
   width: 100%;
   height: 3rem;
   text-align: end;
+  padding: 5px;
 }
 
 .boldi {
@@ -120,13 +122,6 @@ body {
 .card {
   box-shadow: 2px 2px #888888;
   border-color: beige;
-}
-
-div.absolute {
-  position: absolute;
-  width: 50%;
-  bottom: 10px;
-  border: 3px solid #8AC007;
 }
 
 /*# sourceMappingURL=style.css.map */
