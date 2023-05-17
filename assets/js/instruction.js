@@ -102,7 +102,7 @@ document.getElementById("p2").innerHTML =
                 <hr>
                 <div class="btn-holder">
                   <hr>
-                  <div class="d-flex justify-content-center ">
+                  <div class="d-flex justify-content-center col-75 centro">
 
                     <div class="col-12 align-bottom ">
                       <input class="col w-100" type="text">
@@ -144,7 +144,7 @@ document.getElementById("p2").innerHTML =
                 <hr>
                 <div class="btn-holder">
                   <hr>
-                  <div class="d-flex justify-content-center ">
+                  <div class="d-flex justify-content-center col-75 centro">
 
                     <div class="col-12 align-bottom ">
                       <input class="col w-100" type="text">
@@ -193,7 +193,7 @@ document.getElementById("p2").innerHTML =
                 <hr>
                 <div class="btn-holder">
                   <hr>
-                  <div class="d-flex justify-content-center ">
+                  <div class="d-flex justify-content-center col-75 centro">
 
                     <div class="col-12 align-bottom ">
                       <input class="col w-100" type="text">
@@ -243,7 +243,7 @@ document.getElementById("p2").innerHTML =
                   <hr>
                   <div class="btn-holder">
                     <hr>
-                    <div class="d-flex justify-content-center ">
+                    <div class="d-flex justify-content-center col-75 centro">
 
                       <div class="col-12 align-bottom ">
                         <input class="col w-100" type="text">
@@ -289,7 +289,7 @@ document.getElementById("p2").innerHTML =
 
                 <div class="btn-holder">
                   <hr>
-                  <div class="d-flex justify-content-center ">
+                  <div class="d-flex justify-content-center col-75 centro">
 
                     <div class="col-12 align-bottom ">
                       <input class="col w-100" type="text">
