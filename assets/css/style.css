@@ -124,4 +124,9 @@ body {
   border-color: beige;
 }
 
+.fondo {
+  background: url("/assets/img/wall.jpg") repeat;
+  opacity: 0.9;
+}
+
 /*# sourceMappingURL=style.css.map */

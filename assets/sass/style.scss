@@ -1,32 +1,25 @@
 @import 'layout/footer';
 @import 'layout/grid';
 @import 'components/buttons';
-
-
 .image {
     width: 40px;
     height: 40px;
 }
-
-
 .centrado {
     margin: auto;
     max-width: 300px;
 }
-
 .izq {
     text-align: left;
     width: 33%;
     margin: auto;
 
 }
-
 .der {
     text-align: right;
     width: 33%;
     margin: auto;
 }
-
 .colorin {
     background-color: greenyellow;
     width: 100%;
@@ -35,9 +28,6 @@
     height: 3rem;
     padding: 5px;
 }
-
-
-
 .colorout {
     background-color: limegreen;
     border-radius: 5px;
@@ -46,18 +36,19 @@
     text-align: end;
     padding: 5px;
 }
-
 .boldi {
     font-weight: bold;
 
 }
-
 .style1 {
     font-weight: normal;
 }
-
 .card {
     box-shadow: 2px 2px #888888;
     border-color: beige;
 }
-
+.fondo{
+    background: url("/assets/img/wall.jpg") repeat;
+ 
+    opacity: 0.9;
+  }
