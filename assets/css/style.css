@@ -91,6 +91,12 @@ body {
   margin-top: 6px;
 }
 
+div.sticky {
+  position: sticky;
+  bottom: 0;
+  padding-left: 4rem;
+}
+
 .colorin {
   background-color: greenyellow;
   width: 100%;
