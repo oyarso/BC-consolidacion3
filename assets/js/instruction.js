@@ -17,12 +17,74 @@ function myFunction4() {
 function myFunction5() {
   document.getElementById('foo5').setAttribute("class", "style1");
 }
+document.getElementById("adjunto1").innerHTML =
+`<div class="dropdown">
+<button class="button button2 dropdown-toggle " type="button" data-bs-toggle="dropdown"
+  aria-expanded="false">
+  <i class="fa fa-paperclip" aria-hidden="true"></i></button>
+<ul class="dropdown-menu">
+  <li><a class="dropdown-item" href="#">Imágenes</a></li>
+  <li><a class="dropdown-item" href="#">Video</a></li>
+  <li><a class="dropdown-item" href="#">Documentos</a></li>
+</ul>
+</div>
+`
 
+document.getElementById("adjunto2").innerHTML =
+`<div class="dropdown">
+<button class="button button2 dropdown-toggle " type="button" data-bs-toggle="dropdown"
+  aria-expanded="false">
+  <i class="fa fa-paperclip" aria-hidden="true"></i></button>
+<ul class="dropdown-menu">
+  <li><a class="dropdown-item" href="#">Imágenes</a></li>
+  <li><a class="dropdown-item" href="#">Video</a></li>
+  <li><a class="dropdown-item" href="#">Documentos</a></li>
+</ul>
+</div>
+`
+
+document.getElementById("adjunto3").innerHTML =
+`<div class="dropdown">
+<button class="button button2 dropdown-toggle " type="button" data-bs-toggle="dropdown"
+  aria-expanded="false">
+  <i class="fa fa-paperclip" aria-hidden="true"></i></button>
+<ul class="dropdown-menu">
+  <li><a class="dropdown-item" href="#">Imágenes</a></li>
+  <li><a class="dropdown-item" href="#">Video</a></li>
+  <li><a class="dropdown-item" href="#">Documentos</a></li>
+</ul>
+</div>
+`
+
+document.getElementById("adjunto4").innerHTML =
+`<div class="dropdown">
+<button class="button button2 dropdown-toggle " type="button" data-bs-toggle="dropdown"
+  aria-expanded="false">
+  <i class="fa fa-paperclip" aria-hidden="true"></i></button>
+<ul class="dropdown-menu">
+  <li><a class="dropdown-item" href="#">Imágenes</a></li>
+  <li><a class="dropdown-item" href="#">Video</a></li>
+  <li><a class="dropdown-item" href="#">Documentos</a></li>
+</ul>
+</div>
+`
+
+document.getElementById("adjunto5").innerHTML =
+`<div class="dropdown">
+<button class="button button2 dropdown-toggle " type="button" data-bs-toggle="dropdown"
+  aria-expanded="false">
+  <i class="fa fa-paperclip" aria-hidden="true"></i></button>
+<ul class="dropdown-menu">
+  <li><a class="dropdown-item" href="#">Imágenes</a></li>
+  <li><a class="dropdown-item" href="#">Video</a></li>
+  <li><a class="dropdown-item" href="#">Documentos</a></li>
+</ul>
+</div>
+`
 
 
 document.getElementById("p1").innerHTML =
   `
-    
     <div class="accordion-body">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" onclick="myFunction1()" type="button"
@@ -74,243 +136,3 @@ document.getElementById("p1").innerHTML =
               </div>
             </div>
             `
-document.getElementById("p2").innerHTML =
-  `
-            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="card ">
-                    <span class="float-left colorin">¡Hola! <small class="text-muted">11/03/2023</small> </span>
-                  </div>
-                </div>
-                <hr>
-                <div class="d-flex justify-content-end">
-                  <div class="card ">
-                    <span class="float-right colorout">Buenas tardes ¿En que puedo ayudar? <small
-                        class="text-muted">15/03/2023</small></span>
-                  </div>
-                </div>
-                <hr>
-                <div class="col-sm-6">
-                  <div class="card ">
-                    <span class="float-sm-right colorin">¡Hola! Buenas tardes
-                      <small class="text-muted">15/03/2023</small>
-                    </span>
-                  </div>
-                </div>
-                <hr>
-                <div class="btn-holder">
-                  <hr>
-                  <div class="d-flex justify-content-center col-75 centro">
-
-                    <div class="col-12 align-bottom ">
-                      <input class="col w-100" type="text">
-                    </div>
-                    <div class="col ">
-                      <div class="dropdown">
-                        <button class="button button2 dropdown-toggle " type="button" data-bs-toggle="dropdown"
-                          aria-expanded="false">
-                          <i class="fa fa-paperclip" aria-hidden="true"></i></button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Imágenes</a></li>
-                          <li><a class="dropdown-item" href="#">Video</a></li>
-                          <li><a class="dropdown-item" href="#">Documentos</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <button class="button button1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="card ">
-                    <span class="float-left colorin">hi <small class="text-muted">15/01/2023</small> </span>
-                  </div>
-                </div>
-                <hr>
-                <div class="d-flex justify-content-end">
-                  <div class="card ">
-                    <span class="float-right colorout">Jaguar you <small class="text-muted">12/02/2023</small></span>
-                  </div>
-                </div>
-                <hr>
-                <div class="btn-holder">
-                  <hr>
-                  <div class="d-flex justify-content-center col-75 centro">
-
-                    <div class="col-12 align-bottom ">
-                      <input class="col w-100" type="text">
-                    </div>
-                    <div class="col ">
-                      <div class="dropdown">
-                        <button class="button button2 dropdown-toggle " type="button" data-bs-toggle="dropdown"
-                          aria-expanded="false">
-                          <i class="fa fa-paperclip" aria-hidden="true"></i></button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Imágenes</a></li>
-                          <li><a class="dropdown-item" href="#">Video</a></li>
-                          <li><a class="dropdown-item" href="#">Documentos</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <button class="button button1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="card ">
-                    <span class="float-left colorin">Hola <small class="text-muted">15/01/2023</small> </span>
-                  </div>
-                </div>
-                <hr>
-                <div class="d-flex justify-content-end">
-                  <div class="card ">
-                    <span class="float-right colorout">hi how are you? <small
-                        class="text-muted">15/02/2023</small></span>
-                  </div>
-                </div>
-                <hr>
-                <div class="col-sm-6">
-                  <div class="card ">
-                    <span class="float-left colorin">Holanda <small class="text-muted">15/03/2023</small> </span>
-                  </div>
-                </div>
-                <hr>
-                <div class="btn-holder">
-                  <hr>
-                  <div class="d-flex justify-content-center col-75 centro">
-
-                    <div class="col-12 align-bottom ">
-                      <input class="col w-100" type="text">
-                    </div>
-                    <div class="col ">
-                      <div class="dropdown">
-                        <button class="button button2 dropdown-toggle " type="button" data-bs-toggle="dropdown"
-                          aria-expanded="false">
-                          <i class="fa fa-paperclip" aria-hidden="true"></i></button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Imágenes</a></li>
-                          <li><a class="dropdown-item" href="#">Video</a></li>
-                          <li><a class="dropdown-item" href="#">Documentos</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <button class="button button1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="card ">
-                    <span class="float-left colorin">¿Como estas? <small class="text-muted">15/03/2023</small>
-                    </span>
-                  </div>
-                </div>
-                <hr>
-                <div class="d-flex justify-content-end">
-                  <div class="card ">
-                    <span class="float-right colorout">bien gracias a Dios <small
-                        class="text-muted">15/04/2023</small></span>
-                  </div>
-                </div>
-                <hr>
-                <div class="col-sm-6">
-                  <div class="card ">
-                    <span class="float-left colorin">Me alegro <small class="text-muted">15/05/2023</small>
-                    </span>
-                  </div>
-                  <hr>
-                  <div class="btn-holder">
-                    <hr>
-                    <div class="d-flex justify-content-center col-75 centro">
-
-                      <div class="col-12 align-bottom ">
-                        <input class="col w-100" type="text">
-                      </div>
-                      <div class="col ">
-                        <div class="dropdown">
-                          <button class="button button2 dropdown-toggle " type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <i class="fa fa-paperclip" aria-hidden="true"></i></button>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Imágenes</a></li>
-                            <li><a class="dropdown-item" href="#">Video</a></li>
-                            <li><a class="dropdown-item" href="#">Documentos</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <button class="button button1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="card ">
-                    <span class="float-left colorin">Gracias por todo <small class="text-muted">02/03/2023</small>
-                    </span>
-                  </div>
-                </div>
-                <hr>
-
-                <div class="d-flex justify-content-end">
-                  <div class="card ">
-                    <span class="float-right colorout">de nada c: <small class="text-muted">11/04/2023</small></span>
-                  </div>
-                </div>
-                <hr>
-
-                <div class="btn-holder">
-                  <hr>
-                  <div class="d-flex justify-content-center col-75 centro">
-
-                    <div class="col-12 align-bottom ">
-                      <input class="col w-100" type="text">
-                    </div>
-                    <div class="col ">
-                      <div class="dropdown">
-                        <button class="button button2 dropdown-toggle " type="button" data-bs-toggle="dropdown"
-                          aria-expanded="false">
-                          <i class="fa fa-paperclip" aria-hidden="true"></i></button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Imágenes</a></li>
-                          <li><a class="dropdown-item" href="#">Video</a></li>
-                          <li><a class="dropdown-item" href="#">Documentos</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <button class="button button1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> `
